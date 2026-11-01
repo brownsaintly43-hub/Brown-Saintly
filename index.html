@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"="content"=width=device-width,initial-scale=1.0>
+    <title>brown scott</title>
+    <style>
+      body{
+        background: #0A1931;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 24px;
+         }
+      h1{color:gold;text-align: center;}
+      h2{color: #ffff;text-align: center;}
+      button{background:green;
+            color: white;
+            padding: 18px 25px;
+            border-radius:18px;}
+      </style>
+  <h1 style="color:#FBBF24;">BROWN SCOTT SAINTLY</h1>
+<h2>Frontend Developer</h2>
+<p>18yo Frontend Developer building responsive websites on mobile from Adamawa, Nigeria.</p>
+<p>Tools: HTML5 • CSS3 • JavaScript • Acode • Netlify</p>
+    <button onclick="contactme()">contactme</button>
+      <div id="popup">
+  <h3>Brown Scott Saintly</h3>
+  <p>frontend developer | Adamawa Nigeria</p>
+  <button onclick="openWhatsApp()" style="background:#25D366; color:white; padding:10px; border:none; border-radius:8px; width:100%;">chat on whatsApp</button>
+  <button onclick="closepopup()" style="margin-top:10px; background:#0A1931; color:white; padding:8px; border:none; border-radius:8px;">Close</button>
+</div>
+  <script>
+function contactme(){
+  document.getElementById("popup").style.display = "block";
+}
+function closepopup(){
+  document.getElementById("popup").style.display = "none";
+}
+function openWhatsApp(){
+  window.open("https://wa.me/2348149908720?text=Hi%20Brown", "_blank");
+}
+  </script> 
+  </html>
+</head>
+  
